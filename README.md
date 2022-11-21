@@ -114,7 +114,7 @@ The statistical study design has the following:
 - Current Selling Price (DV)
 
 2. A null hypothesis or an alternative hypothesis is described 
-3. 
+
 Null: The Mechacar is priced correct and fairly based on its performance of key metrics for its category 
 Alt: The MechaCar is not priced correct and fairly based on its performance of key metrics for its category
 
