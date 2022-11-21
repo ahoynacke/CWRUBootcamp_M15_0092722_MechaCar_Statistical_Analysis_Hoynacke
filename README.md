@@ -92,7 +92,12 @@ Using your knowledge of R, perform t-tests to determine if all manufacturing lot
 
 The true mean of the sample is 1498.78. The p-value is 0.0s higher than the common significance level of 0.05. This means there is not enough evidence to reject the null hypothesis. 
 
+<img width="414" alt="Screen Shot 2022-11-21 at 5 05 24 PM" src="https://user-images.githubusercontent.com/111096384/203167563-17b0bd6a-81f8-429d-b6ff-df3fc71def75.png">
+
 Looking at each lot individually: 
+
+<img width="532" alt="Screen Shot 2022-11-21 at 5 05 06 PM" src="https://user-images.githubusercontent.com/111096384/203167583-50bc8a4d-c8c7-47e3-93c2-6ddad7b9cc27.png">
+
 1. Lot 1 have the true sample mean of 1500. 
 2. Lot 2 has a smaple mean of 1500.02 
 both have sample mean that is either similar or the same to the presumed population mean
