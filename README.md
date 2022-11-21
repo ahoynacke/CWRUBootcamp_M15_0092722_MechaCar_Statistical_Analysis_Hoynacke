@@ -79,6 +79,31 @@ Lots 3 =  170.29 which offsets the variance at the full lot level
 
 <img width="829" alt="Screen Shot 2022-11-21 at 4 46 53 PM" src="https://user-images.githubusercontent.com/111096384/203164578-393b7d0f-4cd1-4872-a7a8-34324c7be7b2.png">
 
+# Deliverable 3
+
+Using your knowledge of R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+1. An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population 
+2. An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population
+
+<img width="399" alt="Screen Shot 2022-11-21 at 4 49 16 PM" src="https://user-images.githubusercontent.com/111096384/203164969-ebd2ff41-8b8f-418b-98e5-4722c5432d50.png">
+
+4. There is a summary of the t-test results across all manufacturing lots and for each lot 
+
+The true mean of the sample is 1498.78. The p-value is 0.0s higher than the common significance level of 0.05. This means there is not enough evidence to reject the null hypothesis. 
+
+Looking at each lot individually: 
+1. Lot 1 have the true sample mean of 1500. 
+2. Lot 2 has a smaple mean of 1500.02 
+both have sample mean that is either similar or the same to the presumed population mean
+3. Lot 3 is 1496.14 with a p-value of 0.04. This p value is lower thatn the commong siginifance value of 0.05. Which means if we looked at Lot 3 individually we should reject the null hypothesis. 
+
+If we look at the Lots as a whole we do not see issues but further looking into teh results something want wrong with lot 3. The process should be checked for failures. 
+
+# Deliverable 4 
+
+
+
 
 
 
