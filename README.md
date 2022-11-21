@@ -47,6 +47,41 @@ See the below models which show what happened when we remove the less impactful 
 
 <img width="638" alt="Screen Shot 2022-11-21 at 4 19 00 PM" src="https://user-images.githubusercontent.com/111096384/203160415-86805bca-9d08-4508-9ade-42f00fc2feda.png">
 
+# Deliverable 2
+
+## Summary Statistics on Suspension Coils
+
+The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots. Using your knowledge of R, you’ll create a summary statistics table to show:
+
+The suspension coil’s PSI continuous variable across all manufacturing lots
+The following PSI metrics for each lot: mean, median, variance, and standard deviation.
+
+1. The Suspension_Coil.csv file is imported and read into a dataframe 
+
+mecha_coil <- read.csv(file='/Users/alexahoynacke/Desktop/CWRUBootcamp/Module 15 R/Module HW/Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
+
+2. An RScript is written to create a total summary dataframe that has the mean, median, variance, and standard deviation of the PSI for all manufacturing lots 
+3. An RScript is written to create a lot summary dataframe that has the mean, median, variance, and standard deviation for each manufacturing lot 
+
+Script shown below: 
+
+<img width="1086" alt="Screen Shot 2022-11-21 at 4 42 34 PM" src="https://user-images.githubusercontent.com/111096384/203163927-09e79421-d1c8-481a-a446-e14e74d8d267.png">
+
+4. There is a summary that addresses the design specification requirement for all the manufacturing lots and each lot individually 
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+The variance of the coils is 62.29 which is within the 100 PSI variance requirement 
+
+Lot 1 = 0.98 
+Lot 2 = 7.47 
+Lots 3 =  170.29 which offsets the variance at the full lot level 
+
+<img width="829" alt="Screen Shot 2022-11-21 at 4 46 53 PM" src="https://user-images.githubusercontent.com/111096384/203164578-393b7d0f-4cd1-4872-a7a8-34324c7be7b2.png">
+
+
+
+
 
 
 
