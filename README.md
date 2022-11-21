@@ -88,7 +88,7 @@ Using your knowledge of R, perform t-tests to determine if all manufacturing lot
 
 <img width="399" alt="Screen Shot 2022-11-21 at 4 49 16 PM" src="https://user-images.githubusercontent.com/111096384/203164969-ebd2ff41-8b8f-418b-98e5-4722c5432d50.png">
 
-4. There is a summary of the t-test results across all manufacturing lots and for each lot 
+3. There is a summary of the t-test results across all manufacturing lots and for each lot 
 
 The true mean of the sample is 1498.78. The p-value is 0.0s higher than the common significance level of 0.05. This means there is not enough evidence to reject the null hypothesis. 
 
@@ -101,6 +101,27 @@ both have sample mean that is either similar or the same to the presumed populat
 If we look at the Lots as a whole we do not see issues but further looking into teh results something want wrong with lot 3. The process should be checked for failures. 
 
 # Deliverable 4 
+
+Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
+
+The statistical study design has the following:
+1. A metric to be tested is mentioned (IV = independent variable, DV = dependent variable) 
+- Engine (IV)
+- Safety Rating (IV)
+- Resale Value (IV)
+- Maintenance (IV) 
+- MPG (IV)
+- Current Selling Price (DV)
+
+2. A null hypothesis or an alternative hypothesis is described 
+3. 
+Null: The Mechacar is priced correct and fairly based on its performance of key metrics for its category 
+Alt: The MechaCar is not priced correct and fairly based on its performance of key metrics for its category
+
+3. A statistical test is described to test the hypothesis and the data for the statistical test is described 
+
+The best test to prove this hypothesis would be a multiple linear regression which would look at the metrics that have the highest correlation to the selling price. You would be able to show which comgination of IV and DV (selling price) has the greatest impact on price. 
+
 
 
 
